@@ -22,7 +22,7 @@ const testSignup = async (guard, expectedStatus) => {
   } finally { await new Promise(resolve => server.close(resolve)); }
 };
 
-test('default shadow accepts a disposable email', async () => {
+test('default shadow accepts the example email', async () => {
   await testSignup(undefined, 201);
 });
 
