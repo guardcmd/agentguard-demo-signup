@@ -1,0 +1,32 @@
+{
+  "task": "ee3ae353-aa9d-4aeb-9dc0-6b5e5af1be45",
+  "url": "https://demo.guardcmd.ai/api/tasks/ee3ae353-aa9d-4aeb-9dc0-6b5e5af1be45",
+  "overlapMs": 12726,
+  "agents": [
+    {
+      "id": "builder",
+      "head": "0de902cc4d3c84c9f1cb3be12c0401ed3072e168",
+      "repo": "ag-ee3ae353-aa9d-4aeb-9dc0-6b5e5af1be45-builder",
+      "review": {
+        "action": "allow",
+        "score": 0,
+        "reasons": [],
+        "enforced": false
+      }
+    },
+    {
+      "id": "verifier",
+      "head": "eed7bdf89a431e1b300e37523d659d70e8e386f6",
+      "repo": "ag-ee3ae353-aa9d-4aeb-9dc0-6b5e5af1be45-verifier",
+      "review": {
+        "action": "review",
+        "score": 75,
+        "reasons": [
+          "[agent-code-review] External network destination proposed"
+        ],
+        "enforced": false
+      }
+    }
+  ],
+  "note": "Unmodified model proposals exported for local testing. Reviewer actions in this walkthrough are automated QA."
+}
